@@ -1,5 +1,6 @@
 {
 	"usgs": "https://landsatlook.usgs.gov/stac-server",
 	"mpc": "https://planetarycomputer.microsoft.com/api/stac/v1",
-	"nasa": "https://cmr.earthdata.nasa.gov/stac"
+	"nasa": "https://cmr.earthdata.nasa.gov/stac",
+	"esa": "https://catalogue.dataspace.copernicus.eu/stac"
 }
