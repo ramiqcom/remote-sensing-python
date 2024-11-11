@@ -22,7 +22,7 @@ To make sure you can run scripts as expected, do:
 ### General Instructions With Docker JupyterLab ###
 To make sure you can run scripts as expected, do:
 1. Run `docker compose up --build`
-2. Open `localhost:8889/lab?token-my-token` in the browser
+2. Open `http://127.0.0.1:8888/lab` in the browser
 3. Open and run the script from the catalog
 
 Created by Ramadhan
