@@ -19,7 +19,7 @@ To make sure you can run scripts as expected, do:
 4. Install all the necessary packages from [`requirements.txt`](requirements.txt) with `pip install -r requirements.txt`.
 5. Open and run the script from the catalog.
 
-### General Instructions With Docker ###
+### General Instructions With Docker JupyterLab ###
 To make sure you can run scripts as expected, do:
 1. Run `docker compose up --build`
 2. Open `localhost:8889/lab?token-my-token` in the browser

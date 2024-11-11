@@ -3,10 +3,10 @@ services:
     build:
       context: .
     ports:
-      - 8889:8888
+      - 8888
     volumes:
-      - jupyter-data:/home/jovyan/work
-    command: start-notebook.py --NotebookApp.token='my-token'
+      - jupyter-data:/home/work
+    command: jupyter lab --port=8888 --allow-root
 
 volumes:
   jupyter-data:

@@ -1,4 +1,6 @@
-FROM quay.io/jupyter/base-notebook
+FROM python:3.11-bookworm
+
+EXPOSE 8888
 
 COPY ./ .
 
