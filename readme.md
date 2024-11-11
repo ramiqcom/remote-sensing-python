@@ -10,6 +10,7 @@ For now only three scripts area available, next time will be more. I will probab
 1. [Cloudless and Topograhic Corrected Landsat Composite](scripts/landsat_cloudless_topographic/landsat_cloudless_topographic.ipynb)
 2. [Land Cover Classification](scripts/landcover_classification/landcover_classification.ipynb)
 3. [Deep Learning Land Cover Classification with U-Net](scripts/deeplearning_landcover_classification_unet/modelling.ipynb)
+4. [Primary and Secondary Forest Classification](scripts/gedi-forest-classification/forest_classification.ipynb)
 
 ### General Instructions Without Docker ###
 To make sure you can run scripts as expected, do:
