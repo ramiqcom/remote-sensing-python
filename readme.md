@@ -11,13 +11,19 @@ For now only three scripts area available, next time will be more. I will probab
 2. [Land Cover Classification](scripts/landcover_classification/landcover_classification.ipynb)
 3. [Deep Learning Land Cover Classification with U-Net](scripts/deeplearning_landcover_classification_unet/modelling.ipynb)
 
-### General Instructions ###
+### General Instructions Without Docker ###
 To make sure you can run scripts as expected, do:
 1. Install Python 3.9 - 3.12.
 2. Create virtual environment at the base of this repository with `python -m venv .venv`.
 3. Activate the virtual environment with `.venv\Scripts\activate`.
 4. Install all the necessary packages from [`requirements.txt`](requirements.txt) with `pip install -r requirements.txt`.
 5. Open and run the script from the catalog.
+
+### General Instructions With Docker ###
+To make sure you can run scripts as expected, do:
+1. Run `docker compose up --build`
+2. Open `localhost:8889/lab?token-my-token` in the browser
+3. Open and run the script from the catalog
 
 Created by Ramadhan
 
