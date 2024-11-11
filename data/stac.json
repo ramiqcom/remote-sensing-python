@@ -2,5 +2,6 @@
 	"usgs": "https://landsatlook.usgs.gov/stac-server",
 	"mpc": "https://planetarycomputer.microsoft.com/api/stac/v1",
 	"nasa": "https://cmr.earthdata.nasa.gov/stac",
-	"esa": "https://catalogue.dataspace.copernicus.eu/stac"
+	"copernicus": "https://catalogue.dataspace.copernicus.eu/stac",
+	"sentinel-hub": "https://services.sentinel-hub.com/api/v1/catalog/1.0.0/"
 }

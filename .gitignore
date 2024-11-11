@@ -1,2 +1,4 @@
 *.tif
 .venv
+Sentinel-1
+s1
