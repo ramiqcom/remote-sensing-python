@@ -2,6 +2,7 @@ contextily~=1.6
 dask~=2024.11
 jupyterlab~=4.2
 geopandas~=1.0
+leafmap~=0.42
 planetary-computer~=1.0
 pystac-client~=0.8
 rasterio~=1.4
