@@ -1,4 +1,3 @@
-*.tif
+*.tif*
 .venv
-Sentinel-1
-s1
+.env
