@@ -1,3 +1,4 @@
 *.tif*
 .venv
 .env
+private_key.json

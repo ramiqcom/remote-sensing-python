@@ -6,6 +6,19 @@ services:
     volumes:
       - app/data
     command: .venv/bin/jupyter lab --ip=0.0.0.0 --port=8888:8888 --no-browser --allow-root
+
   satellite_embedding_google:
     build: jobs
-    command: [".venv/bin/python", "-m", ".", satellite_embedding_google]
+    command: [".venv/bin/python", "-m", satellite_embedding_google]
+    volumes:
+      - storage:/usr/src/app/output
+
+  gedi_sample:
+    build: jobs
+    command: [".venv/bin/python", "-m", gedi_sample]
+    volumes:
+      - storage:/usr/src/app/output
+
+volumes:
+  storage:
+   name: rs_jobs_output

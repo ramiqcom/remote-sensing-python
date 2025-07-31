@@ -20,14 +20,14 @@ To make sure you can run scripts as expected, do:
 1. Install Python 3.9 - 3.12.
 2. Create virtual environment at the base of this repository with `python -m venv .venv`.
 3. Activate the virtual environment with `.venv\Scripts\activate`.
-4. Install all the necessary packages from [`requirements.txt`](requirements.txt) with `pip install -r requirements.txt`.
+4. Install all the necessary packages from [`requirements.txt`](requirements.txt) with `pip install -r notebook/requirements.txt`.
 5. Open and run the script from the catalog.
 
 ### General Instructions With Docker JupyterLab
 
 To make sure you can run scripts as expected, do:
 
-1. Run `docker compose up --build`
+1. Run `docker compose up --build jupyter`
 2. Open `http://127.0.0.1:8888/lab` in the browser
 3. Open and run the script from the catalog
 
