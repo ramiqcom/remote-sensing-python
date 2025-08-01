@@ -12,3 +12,4 @@ scipy~=1.14
 tensorflow~=2.18
 xarray~=2024.11
 ydf~=0.8
+xgboost
