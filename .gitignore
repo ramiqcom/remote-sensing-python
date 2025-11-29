@@ -3,3 +3,4 @@
 .env
 private_key.json
 *.fgb*
+*.png*
