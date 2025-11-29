@@ -15,3 +15,5 @@ ydf
 xgboost
 matplotlib
 numpy
+matplotlib-scalebar
+matplotlib-map-utils
